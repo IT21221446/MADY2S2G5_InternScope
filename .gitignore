@@ -1,0 +1,59 @@
+# Compiled files
+*.class
+*.jar
+*.war
+*.ear
+*.dll
+*.so
+*.exe
+
+# Gradle-specific files
+.gradle/
+build/
+.gradle/
+.gradle.kts/
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# Compiled Kotlin files
+*.kotlin_class
+
+# Dependency directories
+/.gradle
+/.idea
+/.kotlin
+/out
+
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+# Log files
+*.log
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore local configuration files if necessary (remove if not needed)
+application-local.yml

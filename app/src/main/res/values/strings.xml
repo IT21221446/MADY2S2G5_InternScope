@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Feedback</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="header">FeedBack</string>
+    <string name="text2">Rate the experience with your new job</string>
+    <string name="multiText">Enter feedback here.....</string>
+    <string name="button1">Send FeedBack</string>
+    <string name="header2">Past Feedback</string>
+    <string name="button2">Edit</string>
+    <string name="button3">Delete</string>
+    <string name="header3">Edit Feedback</string>
+    <string name="button4">Save</string>
+    <string name="button5">Cancel</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

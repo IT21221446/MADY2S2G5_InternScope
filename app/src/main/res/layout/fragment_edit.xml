@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".ViewFeedback">
+
+    <TextView
+        android:id="@+id/textEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:gravity="center_horizontal"
+        android:text="@string/header3"
+        android:textColor="@color/unselectedItems"
+        android:textSize="34dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <RatingBar
+            android:id="@+id/ratingBarEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Edit rating"
+            android:numStars="5"
+            android:progressBackgroundTint="@color/unselectedItems"
+            android:progressTint="@color/selectedItems" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="2dp"
+        android:background="#B5B3B3"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Enter"
+        android:inputType="textMultiLine"
+        android:lines="6"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textColorHint="#A1101010" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/btnC"
+        android:text="@string/button4" />
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="300dp"
+        android:background="@color/btnC"
+        android:onClick="showAlertDialog"
+        android:text="@string/button5" />
+</LinearLayout>
+
+</layout>
